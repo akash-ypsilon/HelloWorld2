@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840265BA1EFD07EC00BB6F40 /* FooterCll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840265B81EFD07EC00BB6F40 /* FooterCll.swift */; };
+		840265BB1EFD07EC00BB6F40 /* FooterCll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840265B91EFD07EC00BB6F40 /* FooterCll.xib */; };
 		8404B24D1EF2BB14000ED4D8 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404B24C1EF2BB14000ED4D8 /* CollectionVC.swift */; };
+		841DC8361EFB88DA00EEA4A5 /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841DC8351EFB88DA00EEA4A5 /* Header.xib */; };
+		841DC8391EFB902300EEA4A5 /* Linkedin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841DC8381EFB902300EEA4A5 /* Linkedin.xib */; };
+		841DC83C1EFB9D6300EEA4A5 /* FacebookTbl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841DC83B1EFB9D6300EEA4A5 /* FacebookTbl.xib */; };
 		84262EC61EF115950098A678 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84262EC51EF115950098A678 /* Profile.swift */; };
 		84262EC81EF115F70098A678 /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84262EC71EF115F70098A678 /* Segment.swift */; };
 		84262ECA1EF1177A0098A678 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84262EC91EF1177A0098A678 /* TestController.swift */; };
@@ -21,12 +26,29 @@
 		843879FE1EEFC4AD00561704 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843879FD1EEFC4AD00561704 /* MainViewController.swift */; };
 		84387A001EEFC57100561704 /* messageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843879FF1EEFC57100561704 /* messageCell.swift */; };
 		84387A021EEFDCBB00561704 /* chatBubble.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84387A011EEFDCBB00561704 /* chatBubble.xib */; };
+		8440F7241EFA4CD900AAB711 /* SocialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440F7231EFA4CD900AAB711 /* SocialVC.swift */; };
+		8440F7271EFA4D1A00AAB711 /* LinkedInCll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440F7251EFA4D1A00AAB711 /* LinkedInCll.swift */; };
+		8440F7281EFA4D1A00AAB711 /* LinkedInCll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8440F7261EFA4D1A00AAB711 /* LinkedInCll.xib */; };
+		8440F72C1EFA56F200AAB711 /* LinkedInCollectinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440F72B1EFA56F200AAB711 /* LinkedInCollectinCell.swift */; };
+		8440F72E1EFA641500AAB711 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440F72D1EFA641500AAB711 /* HeaderCell.swift */; };
+		8440F7311EFA680C00AAB711 /* FacebookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440F72F1EFA680C00AAB711 /* FacebookCell.swift */; };
+		8440F7321EFA680C00AAB711 /* FacebookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8440F7301EFA680C00AAB711 /* FacebookCell.xib */; };
+		8440F7361EFA69BD00AAB711 /* FbTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440F7351EFA69BD00AAB711 /* FbTableViewCell.swift */; };
 		84520CD71EF3A9E500009AE0 /* MainTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84520CD61EF3A9E500009AE0 /* MainTableVC.swift */; };
 		84520CD91EF3ADC400009AE0 /* TableViewCellWithCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84520CD81EF3ADC400009AE0 /* TableViewCellWithCollection.swift */; };
+		84530E391EF8F1BD00B1A01E /* HeaderAnimViewControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84530E381EF8F1BD00B1A01E /* HeaderAnimViewControllerVC.swift */; };
 		8470922E1EF7F17500196795 /* ParallexVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470922D1EF7F17500196795 /* ParallexVC.swift */; };
 		847092301EF7F25000196795 /* ParallexChildVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470922F1EF7F25000196795 /* ParallexChildVC.swift */; };
 		84DCBD131EF55AA9001D913F /* ControllVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCBD121EF55AA9001D913F /* ControllVC.swift */; };
 		84DCBD151EF55AD9001D913F /* ModelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCBD141EF55AD9001D913F /* ModelVC.swift */; };
+		84FA92761EFBCC2200577D79 /* InstagramCll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA92741EFBCC2200577D79 /* InstagramCll.swift */; };
+		84FA92771EFBCC2200577D79 /* InstagramCll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FA92751EFBCC2200577D79 /* InstagramCll.xib */; };
+		84FA927A1EFBD10000577D79 /* InstagramCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA92781EFBD10000577D79 /* InstagramCollectionCell.swift */; };
+		84FA927B1EFBD10000577D79 /* InstagramCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FA92791EFBD10000577D79 /* InstagramCollectionCell.xib */; };
+		84FA927F1EFBE0C000577D79 /* TwitterCll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA927D1EFBE0C000577D79 /* TwitterCll.swift */; };
+		84FA92801EFBE0C000577D79 /* TwitterCll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FA927E1EFBE0C000577D79 /* TwitterCll.xib */; };
+		84FA92831EFBE72A00577D79 /* TwitterColectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA92811EFBE72A00577D79 /* TwitterColectionCell.swift */; };
+		84FA92841EFBE72A00577D79 /* TwitterColectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FA92821EFBE72A00577D79 /* TwitterColectionCell.xib */; };
 		F4C6E48E1D21200D00D5056A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C6E48D1D21200D00D5056A /* AppDelegate.swift */; };
 		F4C6E4901D21200D00D5056A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C6E48F1D21200D00D5056A /* ViewController.swift */; };
 		F4C6E4931D21200D00D5056A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C6E4911D21200D00D5056A /* Main.storyboard */; };
@@ -35,7 +57,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		840265B81EFD07EC00BB6F40 /* FooterCll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterCll.swift; sourceTree = "<group>"; };
+		840265B91EFD07EC00BB6F40 /* FooterCll.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterCll.xib; sourceTree = "<group>"; };
 		8404B24C1EF2BB14000ED4D8 /* CollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		841DC8351EFB88DA00EEA4A5 /* Header.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Header.xib; path = ../Header.xib; sourceTree = "<group>"; };
+		841DC8381EFB902300EEA4A5 /* Linkedin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Linkedin.xib; sourceTree = "<group>"; };
+		841DC83B1EFB9D6300EEA4A5 /* FacebookTbl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FacebookTbl.xib; sourceTree = "<group>"; };
 		84262EC51EF115950098A678 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		84262EC71EF115F70098A678 /* Segment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
 		84262EC91EF1177A0098A678 /* TestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
@@ -49,12 +76,29 @@
 		843879FD1EEFC4AD00561704 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		843879FF1EEFC57100561704 /* messageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = messageCell.swift; sourceTree = "<group>"; };
 		84387A011EEFDCBB00561704 /* chatBubble.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chatBubble.xib; sourceTree = "<group>"; };
+		8440F7231EFA4CD900AAB711 /* SocialVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialVC.swift; sourceTree = "<group>"; };
+		8440F7251EFA4D1A00AAB711 /* LinkedInCll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedInCll.swift; sourceTree = "<group>"; };
+		8440F7261EFA4D1A00AAB711 /* LinkedInCll.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LinkedInCll.xib; sourceTree = "<group>"; };
+		8440F72B1EFA56F200AAB711 /* LinkedInCollectinCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedInCollectinCell.swift; sourceTree = "<group>"; };
+		8440F72D1EFA641500AAB711 /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		8440F72F1EFA680C00AAB711 /* FacebookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookCell.swift; sourceTree = "<group>"; };
+		8440F7301EFA680C00AAB711 /* FacebookCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FacebookCell.xib; sourceTree = "<group>"; };
+		8440F7351EFA69BD00AAB711 /* FbTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FbTableViewCell.swift; sourceTree = "<group>"; };
 		84520CD61EF3A9E500009AE0 /* MainTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableVC.swift; sourceTree = "<group>"; };
 		84520CD81EF3ADC400009AE0 /* TableViewCellWithCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellWithCollection.swift; sourceTree = "<group>"; };
+		84530E381EF8F1BD00B1A01E /* HeaderAnimViewControllerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderAnimViewControllerVC.swift; sourceTree = "<group>"; };
 		8470922D1EF7F17500196795 /* ParallexVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallexVC.swift; sourceTree = "<group>"; };
 		8470922F1EF7F25000196795 /* ParallexChildVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallexChildVC.swift; sourceTree = "<group>"; };
 		84DCBD121EF55AA9001D913F /* ControllVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllVC.swift; sourceTree = "<group>"; };
 		84DCBD141EF55AD9001D913F /* ModelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelVC.swift; sourceTree = "<group>"; };
+		84FA92741EFBCC2200577D79 /* InstagramCll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramCll.swift; sourceTree = "<group>"; };
+		84FA92751EFBCC2200577D79 /* InstagramCll.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstagramCll.xib; sourceTree = "<group>"; };
+		84FA92781EFBD10000577D79 /* InstagramCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramCollectionCell.swift; sourceTree = "<group>"; };
+		84FA92791EFBD10000577D79 /* InstagramCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstagramCollectionCell.xib; sourceTree = "<group>"; };
+		84FA927D1EFBE0C000577D79 /* TwitterCll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterCll.swift; sourceTree = "<group>"; };
+		84FA927E1EFBE0C000577D79 /* TwitterCll.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwitterCll.xib; sourceTree = "<group>"; };
+		84FA92811EFBE72A00577D79 /* TwitterColectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterColectionCell.swift; sourceTree = "<group>"; };
+		84FA92821EFBE72A00577D79 /* TwitterColectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwitterColectionCell.xib; sourceTree = "<group>"; };
 		F4C6E48A1D21200D00D5056A /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C6E48D1D21200D00D5056A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4C6E48F1D21200D00D5056A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +119,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		840265B71EFD07CC00BB6F40 /* footer */ = {
+			isa = PBXGroup;
+			children = (
+				840265B81EFD07EC00BB6F40 /* FooterCll.swift */,
+				840265B91EFD07EC00BB6F40 /* FooterCll.xib */,
+			);
+			name = footer;
+			sourceTree = "<group>";
+		};
+		841DC8371EFB8FCD00EEA4A5 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				841DC8351EFB88DA00EEA4A5 /* Header.xib */,
+				8440F72D1EFA641500AAB711 /* HeaderCell.swift */,
+			);
+			name = header;
+			sourceTree = "<group>";
+		};
+		841DC83A1EFB9B8000EEA4A5 /* linkedin */ = {
+			isa = PBXGroup;
+			children = (
+				8440F72B1EFA56F200AAB711 /* LinkedInCollectinCell.swift */,
+				8440F7261EFA4D1A00AAB711 /* LinkedInCll.xib */,
+				8440F7251EFA4D1A00AAB711 /* LinkedInCll.swift */,
+				841DC8381EFB902300EEA4A5 /* Linkedin.xib */,
+			);
+			name = linkedin;
+			sourceTree = "<group>";
+		};
 		84262EC41EF1133C0098A678 /* mvcTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +192,36 @@
 			name = ChatView;
 			sourceTree = "<group>";
 		};
+		8440F7221EFA4CA900AAB711 /* SocialPageDesign */ = {
+			isa = PBXGroup;
+			children = (
+				8440F7341EFA697F00AAB711 /* SubContents */,
+				8440F7331EFA695D00AAB711 /* MaintableContents */,
+			);
+			name = SocialPageDesign;
+			sourceTree = "<group>";
+		};
+		8440F7331EFA695D00AAB711 /* MaintableContents */ = {
+			isa = PBXGroup;
+			children = (
+				840265B71EFD07CC00BB6F40 /* footer */,
+				84FA927C1EFBDF0F00577D79 /* twitter */,
+				84FA92731EFBC24D00577D79 /* instagram */,
+				84FA92721EFBBFFE00577D79 /* facebook */,
+				841DC83A1EFB9B8000EEA4A5 /* linkedin */,
+				841DC8371EFB8FCD00EEA4A5 /* header */,
+				8440F7231EFA4CD900AAB711 /* SocialVC.swift */,
+			);
+			name = MaintableContents;
+			sourceTree = "<group>";
+		};
+		8440F7341EFA697F00AAB711 /* SubContents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SubContents;
+			sourceTree = "<group>";
+		};
 		84520CD51EF3A99600009AE0 /* StaticCellTableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +229,39 @@
 				84520CD81EF3ADC400009AE0 /* TableViewCellWithCollection.swift */,
 			);
 			name = StaticCellTableView;
+			sourceTree = "<group>";
+		};
+		84FA92721EFBBFFE00577D79 /* facebook */ = {
+			isa = PBXGroup;
+			children = (
+				8440F7351EFA69BD00AAB711 /* FbTableViewCell.swift */,
+				8440F7301EFA680C00AAB711 /* FacebookCell.xib */,
+				8440F72F1EFA680C00AAB711 /* FacebookCell.swift */,
+				841DC83B1EFB9D6300EEA4A5 /* FacebookTbl.xib */,
+			);
+			name = facebook;
+			sourceTree = "<group>";
+		};
+		84FA92731EFBC24D00577D79 /* instagram */ = {
+			isa = PBXGroup;
+			children = (
+				84FA92741EFBCC2200577D79 /* InstagramCll.swift */,
+				84FA92751EFBCC2200577D79 /* InstagramCll.xib */,
+				84FA92781EFBD10000577D79 /* InstagramCollectionCell.swift */,
+				84FA92791EFBD10000577D79 /* InstagramCollectionCell.xib */,
+			);
+			name = instagram;
+			sourceTree = "<group>";
+		};
+		84FA927C1EFBDF0F00577D79 /* twitter */ = {
+			isa = PBXGroup;
+			children = (
+				84FA927D1EFBE0C000577D79 /* TwitterCll.swift */,
+				84FA927E1EFBE0C000577D79 /* TwitterCll.xib */,
+				84FA92811EFBE72A00577D79 /* TwitterColectionCell.swift */,
+				84FA92821EFBE72A00577D79 /* TwitterColectionCell.xib */,
+			);
+			name = twitter;
 			sourceTree = "<group>";
 		};
 		F4C6E4811D21200D00D5056A = {
@@ -147,6 +283,7 @@
 		F4C6E48C1D21200D00D5056A /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				8440F7221EFA4CA900AAB711 /* SocialPageDesign */,
 				84520CD51EF3A99600009AE0 /* StaticCellTableView */,
 				84262ECB1EF12D200098A678 /* coreData */,
 				84262ED11EF13BC50098A678 /* ScrollView */,
@@ -168,6 +305,7 @@
 				84DCBD141EF55AD9001D913F /* ModelVC.swift */,
 				8470922D1EF7F17500196795 /* ParallexVC.swift */,
 				8470922F1EF7F25000196795 /* ParallexChildVC.swift */,
+				84530E381EF8F1BD00B1A01E /* HeaderAnimViewControllerVC.swift */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -235,7 +373,17 @@
 				F4C6E4981D21200D00D5056A /* LaunchScreen.storyboard in Resources */,
 				F4C6E4951D21200D00D5056A /* Assets.xcassets in Resources */,
 				F4C6E4931D21200D00D5056A /* Main.storyboard in Resources */,
+				841DC83C1EFB9D6300EEA4A5 /* FacebookTbl.xib in Resources */,
+				84FA927B1EFBD10000577D79 /* InstagramCollectionCell.xib in Resources */,
+				84FA92801EFBE0C000577D79 /* TwitterCll.xib in Resources */,
+				841DC8391EFB902300EEA4A5 /* Linkedin.xib in Resources */,
+				84FA92841EFBE72A00577D79 /* TwitterColectionCell.xib in Resources */,
 				84387A021EEFDCBB00561704 /* chatBubble.xib in Resources */,
+				84FA92771EFBCC2200577D79 /* InstagramCll.xib in Resources */,
+				841DC8361EFB88DA00EEA4A5 /* Header.xib in Resources */,
+				8440F7281EFA4D1A00AAB711 /* LinkedInCll.xib in Resources */,
+				840265BB1EFD07EC00BB6F40 /* FooterCll.xib in Resources */,
+				8440F7321EFA680C00AAB711 /* FacebookCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,23 +398,35 @@
 				84DCBD151EF55AD9001D913F /* ModelVC.swift in Sources */,
 				84262ED01EF13BBB0098A678 /* ScrollViewVC.swift in Sources */,
 				84520CD71EF3A9E500009AE0 /* MainTableVC.swift in Sources */,
+				8440F7311EFA680C00AAB711 /* FacebookCell.swift in Sources */,
+				8440F72E1EFA641500AAB711 /* HeaderCell.swift in Sources */,
 				F4C6E4901D21200D00D5056A /* ViewController.swift in Sources */,
+				8440F7361EFA69BD00AAB711 /* FbTableViewCell.swift in Sources */,
+				84FA92831EFBE72A00577D79 /* TwitterColectionCell.swift in Sources */,
+				8440F7271EFA4D1A00AAB711 /* LinkedInCll.swift in Sources */,
 				843879FA1EEFB76200561704 /* TableViewCell.swift in Sources */,
+				84FA927A1EFBD10000577D79 /* InstagramCollectionCell.swift in Sources */,
 				84262ED51EF1515C0098A678 /* ExpandCellTableViewCell.swift in Sources */,
 				84520CD91EF3ADC400009AE0 /* TableViewCellWithCollection.swift in Sources */,
+				840265BA1EFD07EC00BB6F40 /* FooterCll.swift in Sources */,
 				8404B24D1EF2BB14000ED4D8 /* CollectionVC.swift in Sources */,
+				84FA927F1EFBE0C000577D79 /* TwitterCll.swift in Sources */,
 				8470922E1EF7F17500196795 /* ParallexVC.swift in Sources */,
 				843879F81EEFB4DE00561704 /* TableViewController.swift in Sources */,
 				84262EC81EF115F70098A678 /* Segment.swift in Sources */,
 				84262EC61EF115950098A678 /* Profile.swift in Sources */,
 				84DCBD131EF55AA9001D913F /* ControllVC.swift in Sources */,
+				8440F7241EFA4CD900AAB711 /* SocialVC.swift in Sources */,
+				84530E391EF8F1BD00B1A01E /* HeaderAnimViewControllerVC.swift in Sources */,
 				84387A001EEFC57100561704 /* messageCell.swift in Sources */,
 				847092301EF7F25000196795 /* ParallexChildVC.swift in Sources */,
+				84FA92761EFBCC2200577D79 /* InstagramCll.swift in Sources */,
 				84262ED31EF14FA90098A678 /* expandingCellVC.swift in Sources */,
 				84262ECA1EF1177A0098A678 /* TestController.swift in Sources */,
 				84262ECE1EF12D480098A678 /* Model.xcdatamodeld in Sources */,
 				F4C6E48E1D21200D00D5056A /* AppDelegate.swift in Sources */,
 				843879FE1EEFC4AD00561704 /* MainViewController.swift in Sources */,
+				8440F72C1EFA56F200AAB711 /* LinkedInCollectinCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

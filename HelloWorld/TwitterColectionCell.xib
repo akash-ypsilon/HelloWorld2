@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TwitterColectionCell" rowHeight="109" id="KGk-i7-Jjw" customClass="TwitterColectionCell" customModule="HelloWorld" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="124"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="123.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uz4-gj-zsf">
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="124"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kristian Papadakis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rts-KJ-kFY">
+                                <rect key="frame" x="8" y="8" width="136.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="nl7-Ti-qlb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5m" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTQ-WO-WFd">
+                                <rect key="frame" x="292.5" y="8" width="19.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@Papadakis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2LZ-ug-oCz">
+                                <rect key="frame" x="155" y="8.5" width="74" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="dFm-Ey-sip"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oe7-vh-JDs">
+                                <rect key="frame" x="0.0" y="48.5" width="320" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="Gu1-4f-FLi"/>
+                                    <constraint firstAttribute="width" constant="320" id="v1i-qy-1qc"/>
+                                </constraints>
+                                <string key="text">Hey, I wrote a thing about what apps I'm rocking on my iPhone 6's home screen right now.(Spoiler : Lots of 'em!) imoe.com/whats-serenity... </string>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NTQ-WO-WFd" firstAttribute="centerY" secondItem="2LZ-ug-oCz" secondAttribute="centerY" id="1VL-f0-kvt"/>
+                            <constraint firstItem="2LZ-ug-oCz" firstAttribute="leading" secondItem="rts-KJ-kFY" secondAttribute="trailing" constant="10.5" id="3Hk-dU-ZYp"/>
+                            <constraint firstItem="rts-KJ-kFY" firstAttribute="top" secondItem="uz4-gj-zsf" secondAttribute="top" constant="8" id="3jE-2m-qWy"/>
+                            <constraint firstItem="2LZ-ug-oCz" firstAttribute="centerY" secondItem="rts-KJ-kFY" secondAttribute="centerY" id="6vo-3q-NyK"/>
+                            <constraint firstAttribute="trailing" secondItem="NTQ-WO-WFd" secondAttribute="trailing" constant="28" id="J1S-Ek-ZUs"/>
+                            <constraint firstItem="rts-KJ-kFY" firstAttribute="leading" secondItem="uz4-gj-zsf" secondAttribute="leading" constant="8" id="K5U-XW-xeP"/>
+                            <constraint firstItem="Oe7-vh-JDs" firstAttribute="centerX" secondItem="uz4-gj-zsf" secondAttribute="centerX" constant="-10" id="cag-F3-zUd"/>
+                            <constraint firstItem="Oe7-vh-JDs" firstAttribute="top" secondItem="2LZ-ug-oCz" secondAttribute="bottom" constant="20" id="l91-wA-9ZU"/>
+                            <constraint firstItem="NTQ-WO-WFd" firstAttribute="top" secondItem="uz4-gj-zsf" secondAttribute="top" constant="8" id="ube-vg-pzA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="uz4-gj-zsf" secondAttribute="trailing" constant="-20" id="5Sb-B7-VcI"/>
+                    <constraint firstAttribute="bottom" secondItem="uz4-gj-zsf" secondAttribute="bottom" id="8LP-82-ot6"/>
+                    <constraint firstItem="uz4-gj-zsf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="D8z-da-LCw"/>
+                    <constraint firstItem="uz4-gj-zsf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="fVv-KO-1Ie"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="25" y="84"/>
+        </tableViewCell>
+    </objects>
+</document>
